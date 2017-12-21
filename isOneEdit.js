@@ -35,7 +35,6 @@ function isOneEdit(first, second) {
             return false;
         }
     }
-    // If the length of the string is not same. ex. "abc" and "abde" are not one edit distance.
     if (diff == 1 && len1 != len2 && (i != len1 || j != len2)) {
         return false;
     }
