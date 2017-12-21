@@ -41,4 +41,4 @@ function isOneEdit(first, second) {
     return true;
 }
 
-isOneEdit("pale", "ple");
+isOneEdit("Metalica", "Metal");
